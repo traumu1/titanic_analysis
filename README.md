@@ -1,4 +1,4 @@
-# titanic_analysis
+# Analysis of the titanic dataset
 Exploratory Data Analysis and Machine Learning on the Titanic dataset using R and Python
 
 The project includes:
