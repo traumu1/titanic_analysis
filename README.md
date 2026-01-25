@@ -7,7 +7,7 @@ The project includes:
 * Statistical tests (R)
 * Python EDA plots
 * Full, reproducible code
-
+* Theory: Chi-Square Test of Independence
 
 ## R Analysis
 ### Data Overview
@@ -34,3 +34,11 @@ Countplots for:
 - Higher passenger classes (1st class) had better survival rates
 - Survivors were, on average, slightly younger (p ≈ 0.041)
 - Age distribution differs noticeably between survivor groups
+
+## Theory: Chi-Square Test of Independence
+
+- Statistical test to examine independence between two categorical variables  
+- Compares observed cell frequencies with expected frequencies under the null hypothesis  
+- Test statistic aggregates squared, normalized deviations across all table cells  
+- Large chi-square values indicate evidence against independence  
+- Degrees of freedom depend on the table dimensions: \(df = (r-1)(c-1)\)
