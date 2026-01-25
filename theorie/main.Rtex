@@ -1,0 +1,58 @@
+% ===========================
+%   VOREINSTELLUNGEN / SETUP
+% ===========================
+
+% Dokumentklasse: KOMA-Script Artikel – bietet professionelles und flexibles Layout
+\documentclass{scrartcl}
+
+% Paket zum Einfügen und Skalieren von Bildern
+\usepackage{graphicx}
+
+% Paket für Zeilenabstand, hier aktiviert auf 1,5 Zeilen
+\usepackage{setspace}
+\onehalfspacing
+
+% Zusatzsymbole für Mathematik (ℝ, ℕ, ∀ usw.)
+\usepackage{amssymb}
+
+% Seitenlayout: A4-Papier und definierte Textfläche
+\usepackage[a4paper, total={6.5in, 10in}]{geometry}
+
+% Erweiterte mathematische Umgebungen und Befehle
+\usepackage{amsmath}
+
+% Zusätzliche Mathefunktionen, verbessert amsmath
+\usepackage{mathtools}
+
+% Fix: verhindert Fehler bei Unicode-Minuszeichen (−)
+\DeclareUnicodeCharacter{2212}{-}
+
+% Blackboard-Symbole, z. B. für die Indikatorfunktion ��
+\usepackage{bbm}
+
+% Kein Einzug am Anfang eines Absatzes
+\setlength{\parindent}{0em}
+
+% ===========================
+%   Titel
+% ===========================
+
+\title{Theory \\Statistical Theory: Chi-Square\\ 
+ Application to the Titanic Dataset}
+\author{Christoph Traumüller}
+\date{24.01.2025}
+
+% ===========================
+%   Inhaltlicher Teil
+% ===========================
+
+\begin{document}
+
+\maketitle
+
+
+<<child='statistical tests/chi_squared.Rtex'>>= 
+@
+
+
+\end{document}
